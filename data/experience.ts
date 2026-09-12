@@ -1,0 +1,66 @@
+import { Experience } from "@/types";
+
+export const experiences: Experience[] = [
+  {
+    id: "hcltech-senior",
+    company: "HCLTech",
+    position: "Senior Software Engineer",
+    duration: "2022 - Present",
+    startDate: "2022-01",
+    endDate: "2026-05",
+    description:
+      "Built and deployed enterprise-scale AI solutions, developed NLP applications, and created multi-agent systems for business automation.",
+    achievements: [
+      "Built and deployed Applied AI solutions using LLMs, RAG, and Agentic AI workflows, improving processing efficiency by 25% and reducing manual effort by 1,500+ hours annually",
+      "Developed natural language to SQL platform reducing report turnaround time from hours to minutes, increasing analytics adoption by 40%",
+      "Created multi-agent AI systems for query generation, validation, execution, and response synthesis, improving accuracy by 30% and reducing analyst intervention by 60%",
+      "Built LSTM-based CO₂ emissions forecasting model with R² Score of 0.89 for real-time compliance monitoring and sustainability analytics",
+      "Developed LLM-powered document intelligence platform for automated extraction and classification, reducing processing time by 70% and saving $50K+ annually",
+      "Established enterprise AI pipelines for large-scale analytics automation reducing manual effort by 50% and generating $75K+ productivity savings",
+      "Supported 50+ organizations with sustainability analytics improving reporting efficiency by 40%",
+      "Optimized query execution time by 45% and reduced infrastructure costs by 20% while maintaining 99.9% availability",
+    ],
+    technologies: [
+      "Azure OpenAI",
+      "LangChain",
+      "CrewAI",
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "LSTM",
+      "RAG",
+      "Agentic AI",
+    ],
+  },
+  {
+    id: "hcltech-trainee",
+    company: "HCLTech",
+    position: "Academic Trainee",
+    duration: "2022",
+    startDate: "2022-01",
+    endDate: "2022-06",
+    description: "Completed intensive training in AI/ML and enterprise software development.",
+    achievements: [
+      "Completed comprehensive training in AI, ML, and cloud technologies",
+      "Worked on multiple proof-of-concept projects",
+      "Developed foundational skills in enterprise development",
+    ],
+    technologies: ["Python", "Azure", "SQL", "Machine Learning"],
+  },
+  {
+    id: "shiprocket-analyst",
+    company: "Shiprocket",
+    position: "Data Analyst",
+    duration: "2021 - 2022",
+    startDate: "2021-07",
+    endDate: "2022-01",
+    description: "Analyzed logistics and e-commerce data, built dashboards and reports.",
+    achievements: [
+      "Analyzed logistics and shipping data for optimization opportunities",
+      "Built interactive dashboards and reports",
+      "Developed data pipelines for business intelligence",
+      "Improved reporting efficiency through automation",
+    ],
+    technologies: ["Python", "SQL", "Power BI", "Excel", "Data Analysis"],
+  },
+];
