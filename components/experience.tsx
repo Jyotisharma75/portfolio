@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { experiences } from "@/data/experience";
-import { Badge } from "lucide-react";
 
 export function Experience() {
   const containerVariants = {
@@ -45,7 +44,7 @@ export function Experience() {
           viewport={{ once: true, margin: "-100px" }}
           className="space-y-8"
         >
-          {experiences.map((exp, index) => (
+          {experiences.map((exp) => (
             <motion.div
               key={exp.id}
               variants={itemVariants}

@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { education, certifications } from "@/data/education";
-import { Award, BookOpen, Award as AwardIcon } from "lucide-react";
+import { Award, BookOpen } from "lucide-react";
 
 export function Education() {
   const containerVariants = {
